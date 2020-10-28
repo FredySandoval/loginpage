@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="container centerXY">
+        <div class="wrapper flex-direction">
+            <div class="flex-2 description">
+                <div class="background bc1"></div>
+                <div class="background bc2 effect-1">
+                    <div class="background bc2 effect-1"></div>
+                </div>
+                <div class="background bc2 effect-2">
+                    <div class="background bc2 effect-2"></div>
+                </div>
+                <div class="inner-container centerXY">
+                    <div class="inner-body centerXY">
+                        <div style="display: flex; flex-direction: row;">
+                            <div class="element"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login flex-1 centerXY">
+                <div class="login-container centerXY">
+                    <div class="data">
+                        <form class="centerXY column space-between">
+                            <p style="margin: 0px; text-align: center;">
+                                <strong> Full stack login Page</strong>
+                                <br> Username: user1
+                                <br> Password: password1
+                            </p>
+                            <input class="user-pass" type="text" name="email" id="email" placeholder="username"
+                                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                                data-lpignore="true">
+                            <div style="position: relative;">
+                                <input class="user-pass" type="password" name="pwd" id="password"
+                                    placeholder="password">
+                                <div onclick="eye()" style="position: absolute; right: 5px;  bottom: 0px; font-size: 25px;">
+                                <ion-icon name="eye-off-outline"></ion-icon></div>
+                            </div>
+                            <input type="submit" id="submit" value="Login">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="styling/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+
+</html>
